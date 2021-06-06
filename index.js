@@ -5,7 +5,7 @@ var app = express();
 //Define request response in root URL (/)
 app.get("/", function (req, res) {
   res.json({
-    message: `${process.pid}: Hello world!!!!`,
+    message: `${process.pid}: Hello world!`,
   });
 });
 

@@ -1,5 +1,9 @@
 FROM node:alpine
 
+LABEL maintainer="kaniamu" \
+    name="test-service" \
+    version="0.1"
+
 # Create app directory
 WORKDIR /usr/src/app
 
